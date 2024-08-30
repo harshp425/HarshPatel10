@@ -367,7 +367,7 @@ export default function Home() {
               </Box>
               <Box sx={{ p: 4, pt: 12 }}>
                 <Typography sx={{ fontFamily: 'Lato', fontWeight: '400' }} variant="h6" component="p" gutterBottom>
-                  <strong>TECHNOLOGY INFRASTRUCTURE SUMMER ANALYST</strong> <span style={{ float: 'right' }}><strong>MAY 2024 - PRESENT</strong></span>
+                  <strong>TECHNOLOGY INFRASTRUCTURE SUMMER ANALYST</strong> <span style={{ float: 'right' }}><strong>MAY 2024 - AUG 2024</strong></span>
                 </Typography>
                 <Typography sx={{ fontFamily: 'Lato', fontWeight: '400' }} variant="body1" component="p" gutterBottom>
                   <strong>•</strong> Implemented and deployed an ETL pipeline using Python to efficiently transfer SRE product data from various inhouse, cloud, and third-
