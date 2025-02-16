@@ -186,10 +186,10 @@ export default function Home() {
             </div>
             <div className="flex justify-center md:justify-start w-full mt-4 md:mt-8">
               <Button href='https://www.linkedin.com/in/harshpatel120' target='_blank'>
-                <img src="/linkedin2.png" className="w-10 md:w-12 mr-4" />
+                <img src="linkedin2.png" className="w-10 md:w-12 mr-4" />
               </Button>
               <Button href='https://github.com/harshp425' target='_blank'>
-                <img src="/githubicon.png" className="w-10 md:w-12" />
+                <img src="githubicon.png" className="w-10 md:w-12" />
               </Button>
             </div>
           </div>
