@@ -54,35 +54,35 @@ function Navbar(props) {
 
     <Box sx={{ display: 'flex' }}>
       <link rel="preconnect" href="https://fonts.googleapis.com" />
-      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin />
       <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap" rel="stylesheet" />
       <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@300..700&display=swap" rel="stylesheet" />
       <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@300..700&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet"></link>
       <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@300..700&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Signika+Negative:wght@300..700&display=swap" rel="stylesheet"></link>
 
       <CssBaseline />
-      <AppBar component="nav" style={{ backgroundColor: "#213e60", height: '75px' }}>
+      <AppBar component="nav" style={{ backgroundColor: "white", height: '75px' }}>
         <Toolbar sx={{ display: 'flex', alignItems: 'center', height: '100%' }}>
           <IconButton
             color="inherit"
             aria-label="open drawer"
             edge="start"
             onClick={handleDrawerToggle}
-            sx={{ mr: 2, display: { sm: 'none' }, fontFamily: 'Lato', fontWeight: '900' }}
+            sx={{ mr: 2, display: { sm: 'none' }, fontFamily: 'Lato', fontWeight: '900', color: "#36454F" }}
           >
             <MenuIcon />
           </IconButton>
           <Typography
             variant="h6"
             component="div"
-            sx={{ flexGrow: 1, display: { xs: 'none', sm: 'block' }, alignContent: 'center', fontFamily: 'Fira Code', fontSize: '30px', fontWeight: '400' }}
+            sx={{ flexGrow: 1, display: { xs: 'none', sm: 'block' }, alignContent: 'center', fontFamily: 'Fira Code', fontSize: '30px', fontWeight: '400', color: "#36454F" }}
           >
             <div>&lt;HP/&gt;</div>
           </Typography>
           <Box sx={{ display: { xs: 'none', sm: 'block' } }}>
             {navItems.map((item) => (
               <Link key={item} href={`#${item}`} passHref>
-                <Button key={item} sx={{ color: '#f4f2ef', padding: '14px', ":hover": { backgroundColor: '#1a4a7a' }, fontFamily: 'Fira Code' }}>
+                <Button key={item} sx={{ color: "#36454F", padding: '14px', ":hover": {}, fontFamily: 'Fira Code' }}>
                   &lt; {item} /&gt;
                 </Button>
               </Link>
