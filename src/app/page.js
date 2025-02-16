@@ -194,7 +194,7 @@ export default function Home() {
             </div>
           </div>
           <div data-aos="fade-left" className="mt-12 md:mt-0 md:ml-12">
-            <img src="/Picture1.png" className="w-full max-w-xs md:max-w-lg mx-auto md:mx-0" />
+            <img src="Picture1.png" className="w-full max-w-xs md:max-w-lg mx-auto md:mx-0" />
           </div>
         </div>
       </section>
@@ -222,7 +222,7 @@ export default function Home() {
 
         <div className="flex flex-col md:flex-row items-center md:justify-center w-full mb-6">
           <div data-aos="zoom-in-right" className="flex justify-center md:justify-start w-full md:w-auto mb-6 md:mb-0 md:mr-6">
-            <img src="/Cornell_University_seal.png" className="max-w-xs md:max-w-sm mx-auto md:mx-0 transform transition-all duration-500 hover:scale-105" style={{ width: '80%' }} alt="Cornell University Seal" />
+            <img src="Cornell_University_seal.png" className="max-w-xs md:max-w-sm mx-auto md:mx-0 transform transition-all duration-500 hover:scale-105" style={{ width: '80%' }} alt="Cornell University Seal" />
           </div>
 
           <Box data-aos="zoom-in-left" sx={{
@@ -444,7 +444,7 @@ export default function Home() {
               >
 
                 <img
-                  src="/rbc.jpeg"
+                  src="rbc.jpeg"
                   alt="Logo"
                   style={{
                     width: '60px',
@@ -522,7 +522,7 @@ export default function Home() {
               >
 
                 <img
-                  src="/ids.jpg"
+                  src="ids.jpg"
                   alt="Logo"
                   style={{
                     width: '60px',
@@ -590,7 +590,7 @@ export default function Home() {
               >
 
                 <img
-                  src="/cornell_bowers_cis.jpg"
+                  src="cornell_bowers_cis.jpg"
                   alt="Logo"
                   style={{
                     width: '60px',
@@ -705,7 +705,7 @@ export default function Home() {
                 minWidth: 'auto',
               }}
             >
-              <img src="/githubicon.png" className="w-4 md:w-8 ml-3" />
+              <img src="githubicon.png" className="w-4 md:w-8 ml-3" />
             </Button>
           </DialogTitle>
 
@@ -714,7 +714,7 @@ export default function Home() {
 
               <div style={{ flex: '1 1 50%', display: 'flex', alignItems: 'center', justifyContent: 'center', height: '100%' }}>
                 <img
-                  src={"/" + selectedProject?.square_image}
+                  src={selectedProject?.square_image}
                   alt={selectedProject?.name}
                   style={{
                     width: '100%',
