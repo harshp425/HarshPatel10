@@ -274,7 +274,7 @@ export default function Home() {
                 </Typography>
 
                 <Typography className="text-lg md:text-xl font-light leading-relaxed tracking-wide" variant="body1" component="p" >
-                  <strong>Dean&apos;s List:</strong> Spring &apos;23, Fall &apos;23, Spring &apos;24, Fall &apos;25
+                  <strong>Dean&apos;s List:</strong> Spring &apos;23, Fall &apos;23, Spring &apos;24, Fall &apos;24
                 </Typography>
 
               </Box>
