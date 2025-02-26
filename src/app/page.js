@@ -627,6 +627,86 @@ export default function Home() {
             </Paper>
           </Box>
         </div>
+
+        <div className="flex flex-col md:flex-row items-center md:justify-center w-full mb-8">
+
+          <Box data-aos="zoom-out-left"
+            sx={{
+              display: 'flex',
+              flexWrap: 'wrap',
+              '& > :not(style)': {
+                m: 1,
+                width: '100%',
+                maxWidth: '1200px',
+                height: 'auto',
+                p: 0,
+                display: 'flex',
+                flexDirection: 'column',
+              },
+            }}
+          >
+            <Paper elevation={6} sx={{ position: 'relative', backgroundColor: 'white', color: '#213e60', opacity: 0.9 }}>
+              <Box
+                sx={{
+                  backgroundColor: '#436b94',
+                  color: '#213e60',
+                  p: 2,
+                  position: 'absolute',
+                  top: 0,
+                  width: '100%',
+                  borderRadius: '4px 4px 0 0',
+                  display: 'flex',
+                  alignItems: 'center',
+                }}
+              >
+
+                <img
+                  src="cee.jpg"
+                  alt="Logo"
+                  style={{
+                    width: '60px',
+                    height: '60px',
+                    marginRight: '16px',
+                  }}
+                />
+
+
+                <Box sx={{ display: 'flex', flexDirection: 'column', textAlign: 'left' }}>
+                  <Typography sx={{ fontFamily: 'Lato', fontWeight: '400', color: "white" }} variant="h5" component="h3">
+                    CORNELL BOVAY CIVIL INFRASTRUCTURE LAB
+                  </Typography>
+                  <Typography sx={{ fontFamily: 'Lato', fontWeight: '300', color: "white" }} variant="h6" component="p">
+                    ITHACA, NY
+                  </Typography>
+                </Box>
+              </Box>
+
+              <Box sx={{ p: 4, pt: 12 }}>
+                <Typography className="font-light leading-relaxed tracking-wide" sx={{ fontFamily: 'Lato', fontWeight: '400' }} variant="h6" component="p" gutterBottom>
+                  <strong>LAB OPERATIONS ASSISTANT</strong> <span style={{ float: 'right' }}><strong>NOVEMBER 2022 - PRESENT</strong></span>
+                </Typography>
+                <Typography className="font-light leading-relaxed tracking-wide" sx={{ fontFamily: 'Lato', fontWeight: '400' }} variant="body1" component="p" gutterBottom>
+                  <strong>•</strong> Developed and implemented BIMS, an inventory management system that streamlined equipment tracking, improved tool accessibility, and enhanced loss prevention, providing valuable data insights for budgeting and procurement.
+                </Typography>
+                <Typography className="font-light leading-relaxed tracking-wide" sx={{ fontFamily: 'Lato', fontWeight: '400' }} variant="body1" component="p" gutterBottom>
+                  <strong>•</strong> Optimizing data collection and analysis by leveraging LabVIEW and MATLAB to acquire, process, and visualize experimental data for shear, torsional, and buckling tests, supporting research and coursework.
+                </Typography>
+                <Typography className="font-light leading-relaxed tracking-wide" sx={{ fontFamily: 'Lato', fontWeight: '400' }} variant="body1" component="p" gutterBottom>
+                  <strong>•</strong> Enhanced lab safety by designing and fabricating a 49 sq-ft elevated platform railing system and improving workspace organization through custom-built equipment solutions.
+                </Typography>
+                <Typography className="font-light leading-relaxed tracking-wide" sx={{ fontFamily: 'Lato', fontWeight: '400' }} variant="body1" component="p" gutterBottom>
+                  <strong>•</strong> Supporting hands-on learning by assisting in the planning and facilitation of Civil Engineering lab courses, guiding students, and providing technical support to research teams.
+                </Typography>
+              </Box>
+            </Paper>
+          </Box>
+        </div>
+
+
+
+
+
+
       </section>
 
 
