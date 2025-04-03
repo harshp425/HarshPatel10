@@ -57,6 +57,14 @@ export default function Home() {
       link: 'https://github.com/harshp425/Real-Time-Tool-Classifier'
     },
     {
+      name: 'RagBot',
+      description: "This project is a Retrieval-Augmented Generation (RAG) chatbot that provides intelligent responses by retrieving relevant information from a knowledge base and generating context-aware answers. It is designed to be run without using paid model APIs, making it accessible and cost-effective. The chatbot aims to deliver high-quality responses efficiently, even when running on a CPU.",
+      image: 'RAGBot.jpeg',
+      square_image: 'RAGBot_square.jpeg',
+      technologies: ['Flask', 'Langchain', 'Python', 'HTML', 'CSS'],
+      link: 'https://github.com/harshp425/RAG_chatbot'
+    },
+    {
       name: 'GeoSolver',
       description: "This is an interactive python program which runs completely on the command terminal. This program offers an array of different common geometry problems fo users to choose from and solves the chosen problems with custom user inputs.",
       image: 'geosolver.jpeg',
