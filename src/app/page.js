@@ -49,6 +49,14 @@ export default function Home() {
       link: 'https://github.com/harshp425/Stock-Market-Analysis-Program'
     },
     {
+      name: 'Stock Vibe',
+      description: 'A Flask-based web application that provides real-time sentiment analysis of publicly traded stocks using the latest news headlines. By combining price trends with headline sentiment, Stock Vibe helps users quickly understand how a stock is performing and how its being perceived in the media.',
+      image: 'stock_vibe.jpeg',
+      square_image: 'stock_vibe_square.jpeg',
+      technologies: ['Python', 'Flask', "Beautiful Soup", "Hugging Face", 'Matplotlib', "HTML", "CSS"],
+      link: 'https://github.com/harshp425/stock_vibe'
+    },
+    {
       name: 'JIM',
       description: "A real time object detection program which leverages computer vision and machine learning to classify different tools. Leveraging an accuracy rate of over 80%, the program accesses the webcam and provides real-time classification of equipment with additional instructions on use and return location. The program was implemented in Cornell’s Bovay Civil Infrastructure Lab to improve organization within the complex and assist students/researchers in safely and efficiently utilizing tools.",
       image: 'jim.jpeg',
