@@ -336,7 +336,7 @@ export default function ModernPortfolio() {
                   </div>
                   <div>
                     <span className="font-semibold text-slate-800">Dean&apos;s List:</span>
-                    <span className="ml-2 text-slate-600">Spring '23, Fall '23, Spring '24, Fall '24, Spring '25</span>
+                    <span className="ml-2 text-slate-600">Spring &apos;23, Fall &apos;23, Spring &apos;24, Fall &apos;24, Spring &apos;25</span>
                   </div>
                 </div>
               </div>
