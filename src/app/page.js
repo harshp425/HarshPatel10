@@ -94,7 +94,7 @@ export default function ModernPortfolio() {
     },
     {
       name: 'GeoSolver',
-      description: "This is an interactive python program which runs completely on the command terminal. This program offers an array of different common geometry problems fo users to choose from and solves the chosen problems with custom user inputs.",
+      description: "This is an interactive python program which runs completely on the command terminal. This program offers an array of different common geometry problems for users to choose from and solves the chosen problems with custom user inputs.",
       image: 'geosolver.jpeg',
       technologies: ['Python', 'Math Library'],
       link: 'https://github.com/harshp425/Python-Geometry-Solver',
@@ -156,7 +156,7 @@ export default function ModernPortfolio() {
         'Implemented and deployed an ETL pipeline using Python to efficiently transfer SRE product data from various inhouse, cloud, and third-party data sources into Elasticsearch, leading to over 7700 documents created and 112+ new features tracked over 5 indices',
         'Developed four comprehensive dashboards with Kibana to display SRE product usage data across the bank; driving increased adoption of SRE products among T&O teams, providing KPO insights for executives, and identifying key areas for further investment within the bank',
         'Developed an automated report generation application to provide POs, app custodians, and executives curated SRE Maturity metrics for their portfolios of apps, providing visibility into infrastructure and application-level processes to boost operational efficiency',
-        'Expanded functionality of the cloud provisioning team’s APIs by creating a new class of decorators for Flask and FastAPI to standardize user authentication; utilized functional and glass box testing while increasing test suite coverage by 43%'
+        "Expanded functionality of the cloud provisioning team’s APIs by creating a new class of decorators for Flask and FastAPI to standardize user authentication; utilized functional and glass box testing while increasing test suite coverage by 43%"
       ]
     },
     {
