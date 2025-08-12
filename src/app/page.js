@@ -205,7 +205,7 @@ export default function ModernPortfolio() {
             <div className="space-y-8">
               <div className="space-y-4">
                 <h1 className="text-5xl lg:text-7xl font-bold text-slate-800 leading-tight">
-                  Hi, I'm<br />
+                  Hi, I&apos;m<br />
                   <span className="bg-gradient-to-r from-blue-600 to-green-500 bg-clip-text text-transparent">
                     Harsh Patel
                   </span>
@@ -513,9 +513,9 @@ export default function ModernPortfolio() {
         {/* Footer */}
         <footer className="bg-slate-800 text-white py-12 px-6">
           <div className="max-w-6xl mx-auto text-center">
-            <h3 className="text-2xl font-bold mb-4">Let's Connect</h3>
+            <h3 className="text-2xl font-bold mb-4">Let&apos;s Connect</h3>
             <p className="text-slate-300 mb-8">
-              I'm always open to discussing new opportunities and interesting projects.
+              I&apos;m always open to discussing new opportunities and interesting projects.
             </p>
 
             <div className="flex justify-center space-x-6">
