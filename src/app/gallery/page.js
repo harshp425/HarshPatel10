@@ -64,6 +64,108 @@ export default function Gallery() {
       src: 'bloom.jpeg',
       title: 'Blooms of Pink',
       category: 'Nature'
+    },
+    {
+      id: 6,
+      src: 'Slope_sunset.jpeg',
+      title: 'Slope Sunset',
+      category: 'Nature'
+    },
+    {
+      id: 7,
+      src: 'powdered_trees.jpeg',
+      title: 'Powdered Trees',
+      category: 'Nature'
+    },
+    {
+      id: 8,
+      src: 'rainbow.jpeg',
+      title: 'Rainbow',
+      category: 'Nature'
+    },
+    {
+      id: 9,
+      src: 'two_views.jpeg',
+      title: 'Two Views',
+      category: 'Sport'
+    }
+    , {
+      id: 10,
+      src: 'the_road_not_taken.jpeg',
+      title: 'The Road Not Taken',
+      category: 'Urban'
+    },
+    {
+      id: 11,
+      src: 'squares.jpeg',
+      title: 'Stacked Squares',
+      category: 'Urban'
+    },
+    {
+      id: 12,
+      src: 'castle.jpeg',
+      title: 'Royal Castle',
+      category: 'Urban'
+    },
+    {
+      id: 13,
+      src: 'trussy_bridge.jpeg',
+      title: 'Trussy Bridge',
+      category: 'Urban'
+    },
+    {
+      id: 14,
+      src: 'skyfall.jpeg',
+      title: 'Skyfall',
+      category: 'Nature'
+    },
+    {
+      id: 15,
+      src: 'dusty_gorge.jpeg',
+      title: 'Dusty Gorge',
+      category: 'Nature'
+    },
+    {
+      id: 16,
+      src: 'red_of_fall.jpeg',
+      title: 'Red of Fall',
+      category: 'Nature'
+    },
+    {
+      id: 17,
+      src: 'golden_hour.jpeg',
+      title: 'Golden Hour',
+      category: 'Nature'
+    },
+    {
+      id: 18,
+      src: 'halloween_night.jpeg',
+      title: 'Halloween Night',
+      category: 'Urban'
+    },
+    {
+      id: 19,
+      src: 'lookup.jpeg',
+      title: 'Lookup Look',
+      category: 'Urban'
+    },
+    {
+      id: 20,
+      src: 'purple_flowers.jpeg',
+      title: 'Purple Flowers',
+      category: 'Nature'
+    },
+    {
+      id: 21,
+      src: 'beach.jpeg',
+      title: 'Beach',
+      category: 'Nature'
+    },
+    {
+      id: 22,
+      src: 'purple_sky.jpeg',
+      title: 'Violet Sky',
+      category: 'Nature'
     }
   ];
 
