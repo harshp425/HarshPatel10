@@ -331,10 +331,6 @@ export default function ModernPortfolio() {
                     <span className="ml-2 text-slate-600">Business (Finance) & Artificial Intelligence</span>
                   </div>
                   <div>
-                    <span className="font-semibold text-slate-800">GPA:</span>
-                    <span className="ml-2 text-slate-600">3.66</span>
-                  </div>
-                  <div>
                     <span className="font-semibold text-slate-800">Dean&apos;s List:</span>
                     <span className="ml-2 text-slate-600">Spring &apos;23, Fall &apos;23, Spring &apos;24, Fall &apos;24, Spring &apos;25</span>
                   </div>
