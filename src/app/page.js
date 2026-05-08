@@ -121,16 +121,19 @@ export default function ModernPortfolio() {
   const courses = [
     'Data Structures and Algorithms',
     'Analysis of Algorithms',
+    "Operating Systems",
+    'Networks',
     'Introduction to Machine Learning',
     'Introduction to Artificial Intelligence',
     'Introduction to Computer Vision',
     'Functional Programming in OCaml',
     'Intro to Computer Architecture',
     "Information Retrieval Systems",
+    'Human AI Interaction & Design',
     'Discrete Structures',
     'Linear Algebra',
     'Probability and Statistics',
-    'Predictive Analytics '
+    'Predictive Analytics'
   ];
 
   const experiences = [
@@ -141,9 +144,9 @@ export default function ModernPortfolio() {
       duration: 'June 2025 - Aug 2025',
       logo: 'c1.png',
       description: [
-        'Engineered a real-time fraud detection system using Spring Boot, Java, Kafka, and AWS services (SQS, Lambda, DynamoDB) to aggregate ACH transaction data every 10 minutes, triggering event volume anomaly detection via external ML APIs',
-        'Developed a Java-based aggregator microservice using Kafka and Apache Flink to process streaming ACH payment data, aggregating transaction data in 10-minute intervals and publishing results to AWS SQS for downstream anomaly detection',
-        'Developed and deployed an AWS Lambda service to consume aggregated transaction data, perform anomaly detection via external model APIs, and dispatch alerts through AWS SNS to Slack, PagerDuty, and email based on model responses',
+        'Engineered a real-time fraud detection system processing 3–4M ACH transactions daily (~$2B+), leveraging Spring Boot, Java, Kafka, and AWS (SQS, Lambda, DynamoDB) to cut anomaly detection time by 83% and mitigate reputational risk from delayed payments',
+        'Built a Java-based aggregator microservice leveraging Kafka and Apache Flink to process streaming ACH payment data in 10-minute intervals, enabling near-real-time anomaly detection',
+        'Developed and deployed an AWS Lambda service that applied ML-based anomaly detection to aggregated data and triggered alerts via SNS (Slack, PagerDuty, Email), enhancing fraud response speed and reliability',
       ]
     },
     {
@@ -163,7 +166,7 @@ export default function ModernPortfolio() {
       company: 'Cornell IDS Lab',
       position: 'Machine Learning Research Assistant',
       location: 'Ithaca, NY',
-      duration: 'Sep 2024 - Present',
+      duration: 'Sep 2024 - June 2025',
       logo: 'ids.jpg',
       description: [
         'Collaborated with a team of 4 to fine-tune the Llama 3.1 model on the NGSIM Vehicle Trajectory dataset using LoRA adapters and applied few-shot prompting techniques to enhance trajectory predictions for human-driven vehicles (HDVs)',
@@ -172,13 +175,16 @@ export default function ModernPortfolio() {
     },
     {
       company: 'Cornell Bowers CIS',
-      position: 'CS 1110 Teaching Assistant',
+      position: 'Teaching Assistant',
       location: 'Ithaca, NY',
       duration: 'Aug 2023 - Present',
       logo: 'cornell_bowers_cis.jpg',
       description: [
-        'Assisting students in grasping the core concepts of programming (OOP, algorithms, control structures, etc.) and problem-solving using Python while emphasizing principles of software development, style, and testing.',
-        'Leading weekly lab sessions and office hours for over 40 students, assisting with project debugging and problem-solving. Grading projects and assignments while providing insightful feedback on incorrect code, code style, and alternative optimized approaches.',
+        'Assisting students in grasping the core concepts of programming (OOP, algorithms, control structures, etc.) and problem-solving using Python while emphasizing principles of software development, style, and testing',
+        'Leading weekly lab sessions and office hours for over 40 students, assisting with project debugging and problem-solving.',
+        'Served as an Agile client/manager, mentoring 3 software engineering teams (15 students total) developing new features for Apache Airflow',
+        'Led sprint planning and review meetings, resolved technical blockers, and guided teams through Agile/Scrum development workflows, feature scoping, stakeholder communication, and collaborative software delivery practices',
+        'Designed and facilitated an AI-assisted software development workshop for 92 students, demonstrating end-to-end feature implementation workflows using Cursor AI, GitHub, pull requests, and version control best practices'
       ]
     },
     {
@@ -317,7 +323,7 @@ export default function ModernPortfolio() {
 
               <div className="bg-white p-8 rounded-2xl shadow-lg">
                 <div className="bg-gradient-to-r from-red-400 to-red-600 text-white p-6 rounded-xl mb-6">
-                  <h3 className="text-2xl font-bold">Cornell University</h3>
+                  <h3 className="text-2xl font-bold">Cornell University '26</h3>
                   <p className="opacity-90">College of Engineering</p>
                 </div>
 
@@ -328,11 +334,11 @@ export default function ModernPortfolio() {
                   </div>
                   <div>
                     <span className="font-semibold text-slate-800">Minors:</span>
-                    <span className="ml-2 text-slate-600">Business (Finance) & Artificial Intelligence</span>
+                    <span className="ml-2 text-slate-600">Business & Artificial Intelligence</span>
                   </div>
                   <div>
                     <span className="font-semibold text-slate-800">Dean&apos;s List:</span>
-                    <span className="ml-2 text-slate-600">Spring &apos;23, Fall &apos;23, Spring &apos;24, Fall &apos;24, Spring &apos;25</span>
+                    <span className="ml-2 text-slate-600">Spring &apos;23, Fall &apos;23, Spring &apos;24, Fall &apos;24, Spring &apos;25, Fall &apos;26</span>
                   </div>
                 </div>
               </div>
